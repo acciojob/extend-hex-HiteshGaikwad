@@ -2,9 +2,9 @@ const extendHex = (shortHex) => {
   // write your code here
 	let n= shortHex.length;
 	let str='';
-	if(shortHex.charAT(0)=='#'){
-		str+=shortHex.charAT(0);
-	}
+	
+		str+='#';
+
 	for(let i=0; i<3; i++){
 		let c=shortHex.charAt(i)
 		str+=c;
