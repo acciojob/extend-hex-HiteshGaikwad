@@ -5,7 +5,7 @@ const extendHex = (shortHex) => {
 	
 		str+='#';
 
-	for(let i=0; i<3; i++){
+	for(let i=0; i<shortHex.length; i++){
 		let c=shortHex.charAt(i)
 		str+=c;
 		str+=c;
